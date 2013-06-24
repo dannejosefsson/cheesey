@@ -1,0 +1,19 @@
+@import "compass_twitter_bootstrap";
+
+.accordion-heading {
+
+}
+.accordion-group {
+  &.success {
+    background-color: $successBackground;
+  }
+  &.error {
+    background-color: $errorBackground;
+  }
+  &.warning {
+    background-color: $warningBackground;
+  }
+  &.info {
+    background-color: $infoBackground;
+  }
+}
