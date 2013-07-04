@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('cashmanApp', ['ui.bootstrap'])
+angular.module('cheeseyApp', ['ui.bootstrap'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {

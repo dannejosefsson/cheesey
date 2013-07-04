@@ -47,7 +47,7 @@
 <div class='row-fluid'>
   <div class='span12'>
   <accordion close-others="oneAtATime">
-    <accordion-group ng-class="foobar {{expense.status}}" heading="#{{$index+1}} {{expense.type}} {{expense.amount}}"  ng-repeat="expense in report.expenses" >
+    <accordion-group ng-class="foobar" heading="#{{$index+1}} {{expense.type}} {{expense.amount}}"  ng-repeat="expense in report.expenses" >
       <input type="text" ng-model="expense.type" typeahead="state for state in expenseModules | filter:$viewValue">
       <input type="text" ng-model="expense.amount"></input>
       <div class="input-append">
