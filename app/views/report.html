@@ -4,7 +4,7 @@
       <h1>Report</h1>
       <h2>Total: {{report.totalSum | currency}} kr</h2>
       <h3 class="muted">Taxes: {{report.totalTax | currency}} kr</h3>
-    </div>
+    </div>  
     <div class="span3 offset2">
       <dl>
         <dt>Name</dt>
@@ -39,7 +39,7 @@
     </div>
   </div>
   <div class='span3'>
-    <button type="button" class="btn btn-info text-right" ng-model="oneAtATime" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false">
+    <button type="button" class="btn btn-info text-right pull-right" ng-model="oneAtATime" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false">
         Only one open
     </button>
   </div>
@@ -64,4 +64,11 @@
   </accordion>
   </div>
 </div>
-{{report | json}}
+<div class='row-fluid'>
+  <div class='span2 offset10'>
+<!--      <button class="btn-large btn-success" ><i class="icon-ok icon-white">Done!</i></button>-->
+      <a href="#/reportpreview" class="btn btn-large btn-success pull-right" type="button"><i class="icon-ok icon-white"></i> Done!</a>
+  </div>
+</div>
+
+{{report}}

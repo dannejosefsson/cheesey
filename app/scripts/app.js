@@ -15,6 +15,10 @@ angular.module('cashmanApp', ['ui.bootstrap'])
         templateUrl: 'views/report.html',
         controller: 'ReportCtrl'
       })
+      .when('/reportpreview', {
+        templateUrl: 'views/reportpreview.html',
+        controller: 'ReportPreviewCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
