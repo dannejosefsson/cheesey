@@ -1,9 +1,9 @@
 {
-  "name": "cashman",
-  "version": "0.0.1",
+  "name": "cheesey",
+  "version": "0.0.4",
   "author": {
-    "name": "Gabriel Ledung",
-    "web": "http://www.gabrielledung.se/casheman"
+    "name": "Gabriel Ledung, Anders Linden",
+    "web": "http://www.gabrielledung.se/cheesey"
   },
   "dependencies": {},
   "devDependencies": {
